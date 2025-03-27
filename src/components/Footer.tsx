@@ -1,5 +1,5 @@
-
 import React from 'react';
+import Logo from './Logo';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -11,9 +11,7 @@ const Footer = () => {
       <div className="section-container relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div className="space-y-4">
-            <h3 className="text-2xl font-bold">
-              <span className="text-theme-red">QA</span>Portfolio
-            </h3>
+            <Logo />
             <p className="text-theme-light-gray/70 max-w-xs">
               A showcase of quality assurance expertise, methodologies, and projects focused on delivering excellent software.
             </p>
