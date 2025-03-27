@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { cn } from "@/lib/utils";
+import Logo from './Logo';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -39,8 +40,8 @@ const Navbar = () => {
       )}
     >
       <div className="section-container flex items-center justify-between">
-        <a href="#home" className="text-2xl font-bold text-theme-light-gray hover:text-theme-red transition-colors">
-          <span className="text-theme-red">QA</span>Portfolio
+        <a href="#home" className="hover:text-theme-red transition-colors">
+          <Logo />
         </a>
 
         {/* Desktop Navigation */}
